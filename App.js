@@ -1,11 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
+import react from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import AppFunc from './src/AppFunc';
+import AppClass from './src/AppClass';
+import TextInputEX from './src/TextInputEX';
+import L31FlatList from './src/L31FlatList';
+import L32FlatList from './src/L32FlatList';
+import L51Class from './src/L51Class';
+import L81Class from './src/L81Class';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <L81Class/>
     </View>
   );
 }
